@@ -6,11 +6,10 @@ public class GameOverManager : MonoBehaviour
     public static GameOverManager Instance { get; private set; }
 
     [Header("UI")]
-    [SerializeField] private GameObject gameOverPanel; // Arraste o Panel de Game Over aqui
+    [SerializeField] private GameObject gameOverPanel;
 
     void Awake()
     {
-        // Singleton simples (sem DontDestroyOnLoad, pois cada cena de jogo tem o seu)
         Instance = this;
 
         if (gameOverPanel != null)
@@ -22,13 +21,30 @@ public class GameOverManager : MonoBehaviour
         if (gameOverPanel != null)
             gameOverPanel.SetActive(true);
 
-        Time.timeScale = 0f; // Pausa o jogo
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayGameOver();
+
+        Time.timeScale = 0f; 
     }
 
-    // Chame este metodo no OnClick() do botao "Reiniciar" no Canvas
     public void RestartLevel()
     {
-        Time.timeScale = 1f; // Volta o tempo ao normal antes de recarregar
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1f;
+        int currentIndex = SceneManager.GetActiveScene().buildIndex;
+
+        if (SceneTransitionManager.Instance != null)
+            SceneTransitionManager.Instance.LoadScene(currentIndex);
+        else
+            SceneManager.LoadScene(currentIndex);
+    }
+
+    public void BackToMenu()
+    {
+        Time.timeScale = 1f;
+
+        if (SceneTransitionManager.Instance != null)
+            SceneTransitionManager.Instance.LoadScene(0);
+        else
+            SceneManager.LoadScene(0);
     }
 }
