@@ -1,10 +1,9 @@
 using UnityEngine;
 
-// Coloque no GameObject do guarda-chuva. Precisa de um Collider2D marcado como "Is Trigger".
 public class UmbrellaPickup : MonoBehaviour
 {
     [Header("Animacao de espera (girando)")]
-    [SerializeField] private float rotationSpeed = 90f; // graus por segundo
+    [SerializeField] private float rotationSpeed = 90f; 
 
     [Header("Efeito leve de flutuacao (opcional)")]
     [SerializeField] private bool bob = true;
@@ -39,9 +38,14 @@ public class UmbrellaPickup : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             collected = true;
+
+            if (VictoryManager.Instance == null)
+            {
+                return;
+            }
+
             VictoryManager.Instance.TriggerVictory();
 
-            // Some da cena assim que e pego (o disparo da vitoria ja aconteceu acima)
             gameObject.SetActive(false);
         }
     }
