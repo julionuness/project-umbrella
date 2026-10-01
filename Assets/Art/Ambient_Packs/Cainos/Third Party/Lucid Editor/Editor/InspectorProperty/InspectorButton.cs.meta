@@ -1,18 +1,3 @@
-fileFormatVersion: 2
-guid: caf111390d23e46798c4df039cd07324
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Third Party/Lucid Editor/Editor/InspectorProperty/InspectorButton.cs
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:2938a91974caa03d3ace647714f4d550d4871bbe7c85e39b12cfa07075413afd
+size 508

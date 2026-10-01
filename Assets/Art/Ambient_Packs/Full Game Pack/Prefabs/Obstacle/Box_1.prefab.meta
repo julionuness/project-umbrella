@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 69ac5a42ea64d0142be4cf040a826c25
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Obstacle/Box_1.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba2e990bf614f6b311e781875c8231cdac5a9bf6d11ea4b37d1dc17a113bbd63
+size 360

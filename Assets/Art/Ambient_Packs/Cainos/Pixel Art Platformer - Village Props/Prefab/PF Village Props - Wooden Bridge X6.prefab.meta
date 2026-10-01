@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: d9997400142b1f14281284870012ac00
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village
-    Props - Wooden Bridge X6.prefab
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:4cf207fe608a9542760a8c5341752c60fe88d79e5531f411b22f084b6096ad85
+size 438

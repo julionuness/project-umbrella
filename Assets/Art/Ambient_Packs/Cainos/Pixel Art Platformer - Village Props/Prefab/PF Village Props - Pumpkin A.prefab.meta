@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 4c7668f32ddf4c843bc8d57bf6b43000
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village
-    Props - Pumpkin A.prefab
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:1afcf70fdf5eea4ea9d2189a4a9e48ff2eb491e1b57ba233a331081a97628838
+size 431

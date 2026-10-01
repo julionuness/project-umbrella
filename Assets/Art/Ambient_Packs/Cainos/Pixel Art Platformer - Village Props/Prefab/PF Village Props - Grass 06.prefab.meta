@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: ed925410cd097664ea4b9e3e758f02a4
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village
-    Props - Grass 06.prefab
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:551091c690ea37e02466fa87d4a356f58aacccfe230efef5eaad0365bc447e5a
+size 430

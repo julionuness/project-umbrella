@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 78c0f168d9274124eaeedea139301a44
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village
-    Props - Pot 01.prefab
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:024aad2c74eab7aa0d1b479ca796ae7235d48351e2bbf1fa747eb09ef5773f49
+size 428

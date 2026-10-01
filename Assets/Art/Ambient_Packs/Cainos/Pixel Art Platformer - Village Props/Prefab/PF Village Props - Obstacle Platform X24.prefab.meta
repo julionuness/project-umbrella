@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: bad53070b28240b4282bc102e6922c83
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village
-    Props - Obstacle Platform X24.prefab
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:8374b197c5b48776c5242699b1ca70c775158eb08a34ad97189ba4ac458d0fea
+size 443

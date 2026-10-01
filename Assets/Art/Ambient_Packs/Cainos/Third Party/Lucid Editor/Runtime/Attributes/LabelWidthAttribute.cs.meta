@@ -1,18 +1,3 @@
-fileFormatVersion: 2
-guid: 7430b1710086a44739b7aadb5ec311dd
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/LabelWidthAttribute.cs
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d7d5a903ec86a7b75525ff43b60a001d940a865c12cf0ed1e9a495f50fdc222
+size 506

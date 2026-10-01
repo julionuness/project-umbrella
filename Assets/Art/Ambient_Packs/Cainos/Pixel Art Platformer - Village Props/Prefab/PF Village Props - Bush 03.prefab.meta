@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: de570bfbf1a49ba4c9575930f7db6bae
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village
-    Props - Bush 03.prefab
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2b0532b2abc7083d2ea77fdb6e28599bb00c51bf18d565e0a637b000b1075c6
+size 429

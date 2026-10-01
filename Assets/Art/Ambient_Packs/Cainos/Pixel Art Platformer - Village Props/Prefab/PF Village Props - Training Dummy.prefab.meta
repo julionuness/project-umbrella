@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 7fc30cd74f5aa724387df7546e0f3d5b
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village
-    Props - Training Dummy.prefab
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f5e8353b04395192b2f66de767e514340fa16b8071bb408d179defe68834c87
+size 436

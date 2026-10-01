@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 8cc938fe21b426a4daedf2f6c7e34c80
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village
-    Props - Fence A.prefab
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:24f7e5cb983f7fc54c419cdf8e604fb37544d161096c1448b3fa640aa78bdf45
+size 429

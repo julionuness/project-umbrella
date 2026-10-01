@@ -1,18 +1,3 @@
-fileFormatVersion: 2
-guid: 40a6ca1c7e69cdc43aa3530067d930e5
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Script/Editor/ChestEditor.cs
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:d258e9abab080afe175c2be5bd1ca3b1a89280e76dff1fb619215cb94afb3013
+size 505

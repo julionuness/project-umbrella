@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: c003d3d6c74095d4bba590f13b1a5320
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Obstacle/obstacle_1.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:ebcbe5276a339054adcdc2df09cc7716e48cfc15625fb77edcda674136ac1a84
+size 365

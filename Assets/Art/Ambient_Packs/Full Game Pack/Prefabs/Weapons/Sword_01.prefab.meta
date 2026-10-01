@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 3d145890855513e41a357854e683290e
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Weapons/Sword_01.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ceb2f80bd08a43f052bd412cfab44434ea3d83d1c622449c6235e3f543c704a
+size 362

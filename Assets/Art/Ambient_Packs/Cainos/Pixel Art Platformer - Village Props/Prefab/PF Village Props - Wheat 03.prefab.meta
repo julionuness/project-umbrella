@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 924118ea6eca18f459f67d54f8640858
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village
-    Props - Wheat 03.prefab
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b42b2e7bebe17f039b127f5a95da480da122fa973ee6ad019d759f7ca9a2e46
+size 430

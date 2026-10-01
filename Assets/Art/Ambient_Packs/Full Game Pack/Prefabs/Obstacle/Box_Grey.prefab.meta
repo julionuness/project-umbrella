@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 3c7a6ba7d3862064892bf00d8da99575
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Obstacle/Box_Grey.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:032cc7381b23aa68dcaa5b36771a0f93698c04f8ff61f302bd423aaf1e5074f8
+size 363

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 05d871b9365825b4ca356e1345739ee2
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village
-    Props - Road Sign 02.prefab
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:5036f8eb9dc8a2125689a0b74ebd2fc4e41578bcb44cfc445e6b6870765304a1
+size 434

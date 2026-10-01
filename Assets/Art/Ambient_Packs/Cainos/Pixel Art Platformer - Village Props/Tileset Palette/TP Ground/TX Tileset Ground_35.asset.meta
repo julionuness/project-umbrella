@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 0ba9a9a782147074f8a089b2bb2e6be5
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 11400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP
-    Ground/TX Tileset Ground_35.asset
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:79d8a2bc8e3fb6a2c0b6798e1c939efe9c983e65753f3324ec41fe98e9e20850
+size 477

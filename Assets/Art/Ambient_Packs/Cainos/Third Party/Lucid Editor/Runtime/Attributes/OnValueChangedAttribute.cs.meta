@@ -1,18 +1,3 @@
-fileFormatVersion: 2
-guid: 1a23e0219082d4783867105c8a74b1d7
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/OnValueChangedAttribute.cs
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:a44fed80d509295bd7e6fb125da97f0503ac9278c96b87148b847ff7b41c0b13
+size 510

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 94071ae99b9750c46b2b4166cdc184f9
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Plants/Kiwi.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0a7961e082ad8e472d21661e107107d667ead94c274c8a6ab1f9f5f9158ff31
+size 357

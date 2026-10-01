@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 9311ed355d757b349b89e7dd462f15f1
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 7400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Animation/Chest Iron/AM
-    Chest Iron - Closed.anim
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c8048e1451898bf25d102aac7188f85afbdb27a1acf5f3a19ef65d889737aae
+size 472

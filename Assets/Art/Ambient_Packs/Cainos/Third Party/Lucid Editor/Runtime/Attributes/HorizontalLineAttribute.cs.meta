@@ -1,18 +1,3 @@
-fileFormatVersion: 2
-guid: 875c2c64a20374cd08ac4eebb6c290d7
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HorizontalLineAttribute.cs
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:981c411fc9cf60a2097036ead65928a881c13feb35663888af335c92ea007a74
+size 510

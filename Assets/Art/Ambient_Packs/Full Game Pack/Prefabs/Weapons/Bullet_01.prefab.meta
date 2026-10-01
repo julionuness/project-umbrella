@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: b9d3cddad27add84eafdb14439c4f2cf
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Weapons/Bullet_01.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c179d39aafc19d53a84a17f4f3aa3eee1acab3b02b37a7db90318e8f507897d
+size 363

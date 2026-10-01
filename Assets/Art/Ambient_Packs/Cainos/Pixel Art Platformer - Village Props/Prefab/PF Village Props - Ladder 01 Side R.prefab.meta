@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 187b2acbaee972945b4b4fd0d2575724
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village
-    Props - Ladder 01 Side R.prefab
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:e09683459f71bff8390a593887298504ca23befb8dc7b41b8229ccbbd26c0bdf
+size 438

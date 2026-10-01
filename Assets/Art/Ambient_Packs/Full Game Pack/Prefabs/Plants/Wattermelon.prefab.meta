@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 54eb541b53684a94bb605102a617fdd5
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Plants/Wattermelon.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:3119dcc5dbac60a041d79bba52181f33c15d9d333754abe8e955152a9442e5f2
+size 364

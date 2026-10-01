@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 144d9654d5df26a489cb999d444dfb7a
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Obstacle/Grey_Barrel.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:fed0ff0f4da1c5aa414b07bc02e5b9e6405e0c59cab08413462bd975654725be
+size 366

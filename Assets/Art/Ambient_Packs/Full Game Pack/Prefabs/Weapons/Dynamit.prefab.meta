@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 08db26122f1465847a32f0ada3621a24
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Weapons/Dynamit.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:993ba6b86ea4954aa313a24743490314b5c6e783f1f72415ff76f7fd10c434ce
+size 361

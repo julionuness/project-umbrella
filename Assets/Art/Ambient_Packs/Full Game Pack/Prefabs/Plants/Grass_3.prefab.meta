@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: d0bae5ffa290d6444b16ea4727e4a495
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Plants/Grass_3.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:eea92c106e4fa4ad43a52e445f55325547e9be339b409adc0390c4190969b682
+size 360

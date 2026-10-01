@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 6e9800d63ccf60b419f32af86b60902e
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Plants/Apple_02.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:f39fffe639e8b7b1e2d11078c20a885b45958dfe48f5beba2f1dfc9c606f19f7
+size 361

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: b50dac852398d254fbbfa77d99e2b7b3
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Weapons/Axe.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:5acd440714c5ccc1ee960df6bdd51e7242e21628cd7d4e48fd9b41659a0d0c41
+size 357

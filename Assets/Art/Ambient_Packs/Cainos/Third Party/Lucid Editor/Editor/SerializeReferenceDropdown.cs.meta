@@ -1,18 +1,3 @@
-fileFormatVersion: 2
-guid: f22e9c83330894a79a03fa7342c23c14
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Third Party/Lucid Editor/Editor/SerializeReferenceDropdown.cs
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2dcd9d5408bb8765e127f8679c7257efa4265626fe394c8ab7666a8f64eb579
+size 501

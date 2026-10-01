@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 777db5bf7f3580e46954a66aaef7468a
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Weapons/Pistol_02.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a981602d8731d868ed2d679d97ed6dce72c3fa0a6a1bbf5b10dbcb63fd440c3
+size 363

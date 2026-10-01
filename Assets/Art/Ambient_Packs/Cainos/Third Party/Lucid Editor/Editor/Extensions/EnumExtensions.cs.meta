@@ -1,18 +1,3 @@
-fileFormatVersion: 2
-guid: 1d1c97af8bccf49119723b6c0b99dd96
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Third Party/Lucid Editor/Editor/Extensions/EnumExtensions.cs
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb59943886e62fd575774d747def0d56564d595bf0fefb3f26e8236c2d9623a4
+size 500

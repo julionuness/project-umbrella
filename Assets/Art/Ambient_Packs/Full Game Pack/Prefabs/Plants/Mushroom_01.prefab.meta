@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 4544d19143c92d54baa6539c6994b2f4
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Plants/Mushroom_01.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8f0bfab0e566f77df3826b6647e002de9d2ffee9ebb96d23a51999f4e193f5b
+size 364

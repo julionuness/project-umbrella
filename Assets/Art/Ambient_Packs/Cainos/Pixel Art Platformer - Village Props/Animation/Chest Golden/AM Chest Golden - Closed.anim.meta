@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: eb2a5b8d9dcd5cf4cae7b03bec92c0f9
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 7400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Animation/Chest Golden/AM
-    Chest Golden - Closed.anim
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:88250b7850488d042e0ffc3eea1f5012fcbcefbb782698ca135d0fd75239bdfd
+size 476

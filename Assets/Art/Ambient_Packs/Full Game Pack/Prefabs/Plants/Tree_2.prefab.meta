@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 8aaa9c67f540eee42bc32895724a01e0
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Plants/Tree_2.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:4cbfbb75fac56110c95e6305808b3394816ad998c6d7cc55468da08ef7e76126
+size 359

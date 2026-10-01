@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: e8bae36b607017047ace9061609051d9
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village
-    Props - Campfire 01.prefab
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd04af999db4ede4b89fe75124ab9e0b3cd255913ebfef673615b5182db85b1b
+size 433

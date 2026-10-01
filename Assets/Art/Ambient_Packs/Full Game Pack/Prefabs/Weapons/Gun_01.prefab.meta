@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 82e9b5ca0d12e21449f647fbffc5aedc
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Weapons/Gun_01.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:d77edc35d3f6f63095ed1ad8b2bf9eb1215fa7316468d456064ab5690368f173
+size 360

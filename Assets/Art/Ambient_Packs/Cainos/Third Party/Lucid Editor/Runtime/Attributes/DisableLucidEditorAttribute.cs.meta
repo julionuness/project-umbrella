@@ -1,18 +1,3 @@
-fileFormatVersion: 2
-guid: d750cca32720e4c5daeb51e4a43730a0
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/DisableLucidEditorAttribute.cs
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:9275b520156c6eb2d793bf203e1fed5e73262e8d08b7e0632669761fe97eb120
+size 514

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 295bb10ead83a4d44b8a1398a7f16c99
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village
-    Props - Sunflower 01.prefab
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:27e22544af2e525dce6716458d4e6c99ce6fd9a5bba8e5bee2546f44dc76399d
+size 434

@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: c8c79bea693f0a740bbca9576e84def9
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 7400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Animation/Chest Wooden/AM
-    Chest Wooden - Opened.anim
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:07e9171daa0508784200960d01f7937909a42e00acae5db70f953b57443372c0
+size 476

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 088e5d88e3a7c2947a131a12adf2a816
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Plants/Plant_01.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:06a36be7486f298cbd09c34027308cab979d8733c9ecab7d8c327cadda7f0754
+size 361

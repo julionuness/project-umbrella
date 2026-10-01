@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: db3033d1b9a69204ebc8a3bc98f3c254
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village
-    Props - Weapon Rack.prefab
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:66e517367a7ccf05946375be21b479b5951e18756b176c6aafbfd2d103637cb2
+size 433

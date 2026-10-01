@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 92aca809b931fc849b230d03bbcfee16
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village
-    Props - Stairs X48.prefab
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:a45f963abfdef17e1057660cbeac29bd4b3c1716091733dc8866869e6c968b25
+size 432

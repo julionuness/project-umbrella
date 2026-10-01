@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 27277137d0605bd45bd741cdb791e0c1
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 166114
-  packageName: Pixel Art Platformer - Village Props
-  packageVersion: 2.3.1
-  assetPath: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village
-    Props - Arrow.prefab
-  uploadId: 910790
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb864e1382652e445ae76370bade3df56c36bbce6a241810164ea63043edbb53
+size 427

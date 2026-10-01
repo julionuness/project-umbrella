@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: b309bd2f7a9cd1c4895873981024a28a
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 369142
-  packageName: FULL GAME PACK
-  packageVersion: 1.0
-  assetPath: Assets/Full Game Pack/Prefabs/Obstacle/Barrel.prefab
-  uploadId: 886596
+version https://git-lfs.github.com/spec/v1
+oid sha256:91211da7dd58a4da2aeec9ddd84ed99a370ad96e69c7e642cbdf87218482dd96
+size 361
