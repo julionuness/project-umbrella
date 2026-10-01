@@ -14,7 +14,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private int maxJumps = 2;
 
     [Header("Som de passos")]
-    [SerializeField] private float footstepInterval = 1.30f;
+    [Tooltip("Distancia percorrida (em unidades) entre um passo e outro.")]
+    [SerializeField] private float stepDistance = 25f;
 
     [Header("Componentes")]
     [SerializeField] private Animator animator;
@@ -25,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private bool facingRight = true;
     private int jumpsUsed = 0;
-    private float footstepTimer = 0f;
+    private float distanceSinceLastStep = 0f;
 
     void Awake()
     {
@@ -74,18 +75,19 @@ public class PlayerMovement : MonoBehaviour
 
         if (isWalking)
         {
-            footstepTimer -= Time.deltaTime;
-            if (footstepTimer <= 0f)
+            distanceSinceLastStep += Mathf.Abs(rb.linearVelocity.x) * Time.deltaTime;
+
+            if (distanceSinceLastStep >= stepDistance)
             {
                 if (AudioManager.Instance != null)
                     AudioManager.Instance.PlayFootstep();
 
-                footstepTimer = footstepInterval;
+                distanceSinceLastStep = 0f;
             }
         }
         else
         {
-            footstepTimer = 0f;
+            distanceSinceLastStep = stepDistance;
         }
     }
 

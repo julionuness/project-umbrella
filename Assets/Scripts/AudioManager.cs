@@ -22,6 +22,7 @@ public class AudioManager : MonoBehaviour
     [Header("Passos (variacoes aleatorias)")]
     [SerializeField] private AudioClip[] footstepClips;
     [SerializeField][Range(0f, 0.2f)] private float footstepPitchVariation = 0.08f;
+    [SerializeField][Range(0f, 1f)] private float footstepVolume = 0.12f;
 
     private int lastFootstepIndex = -1;
 
@@ -71,11 +72,22 @@ public class AudioManager : MonoBehaviour
         }
         lastFootstepIndex = index;
 
-        // Pequena variacao de tom pra parecer mais organico
-        float originalPitch = sfxSource.pitch;
-        sfxSource.pitch = 1f + Random.Range(-footstepPitchVariation, footstepPitchVariation);
-        sfxSource.PlayOneShot(footstepClips[index]);
-        sfxSource.pitch = originalPitch;
+        // Pequena variacao de tom pra parecer mais organico.
+        // Toca num AudioSource temporario proprio (nao no sfxSource compartilhado),
+        // porque pitch e uma propriedade do AudioSource inteiro: mudar e desfazer
+        // no sfxSource no mesmo frame afeta esse e qualquer outro som tocando nele.
+        GameObject tempGO = new GameObject("FootstepOneShot");
+        tempGO.transform.SetParent(sfxSource.transform, false);
+
+        AudioSource tempSource = tempGO.AddComponent<AudioSource>();
+        tempSource.outputAudioMixerGroup = sfxSource.outputAudioMixerGroup;
+        tempSource.spatialBlend = sfxSource.spatialBlend;
+        tempSource.volume = sfxSource.volume * footstepVolume;
+        tempSource.pitch = 1f + Random.Range(-footstepPitchVariation, footstepPitchVariation);
+        tempSource.clip = footstepClips[index];
+        tempSource.Play();
+
+        Destroy(tempGO, footstepClips[index].length / Mathf.Max(tempSource.pitch, 0.01f));
     }
 
     private void PlaySfx(AudioClip clip)

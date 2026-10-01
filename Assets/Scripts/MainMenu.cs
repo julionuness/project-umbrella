@@ -11,6 +11,9 @@ public class MainMenu : MonoBehaviour
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlayButtonClick();
 
+        if (GameTimer.Instance != null)
+            GameTimer.Instance.StartNewRun();
+
         if (SceneTransitionManager.Instance != null)
             SceneTransitionManager.Instance.LoadScene(firstLevelSceneName);
         else

@@ -31,7 +31,7 @@ public class VictoryManager : MonoBehaviour
 
         if (timeText != null)
         {
-            float elapsed = Time.timeSinceLevelLoad;
+            float elapsed = GameTimer.Instance != null ? GameTimer.Instance.ElapsedSeconds : Time.timeSinceLevelLoad;
             int minutes = Mathf.FloorToInt(elapsed / 60f);
             int seconds = Mathf.FloorToInt(elapsed % 60f);
             timeText.text = $"Tempo: {minutes:00}:{seconds:00}";
