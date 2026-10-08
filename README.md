@@ -1,66 +1,140 @@
 # Rodinei: Longe de casa
 
-Jogo de plataforma 2D desenvolvido em Unity 6 (URP 2D). Rodinei está voltando pra casa em busca do
-guarda-chuva que esqueceu — o objetivo é atravessar a fase, desviando dos obstáculos, e coletar o
-guarda-chuva no final.
+Jogo de plataforma 2D desenvolvido em **Unity 6**. Rodinei partiu em busca de aventura, mas percebeu longe de casa que tinha esquecido o guarda-chuva. A jornada vira uma corrida contra o tempo: atravessar 4 fases cheias de obstáculos e recuperar o guarda-chuva no menor tempo possível.
 
-## Status atual — Entrega 3 (Prova de Conceito Jogável)
+**Versão final: v1.0** — Entrega Final (Jogo 2D Completo)
 
-- [x] Controles funcionando (andar, pular, pulo duplo)
-- [x] Mecânica principal implementada (Double Jump)
-- [x] Core loop jogável (Menu → Fase → Vitória/Derrota → Reinício)
-- [x] Física e colisões (Rigidbody2D/Collider2D, Tilemap + Composite Collider)
-- [x] Interações básicas (obstáculos e coletável)
-- [x] Objetivo identificável (guarda-chuva)
-- [x] Condição básica de vitória/derrota
-- [x] Primeiros prefabs
-- [x] GDD atualizado (`GDD.pdf`, v0.3)
-- [ ] Tag `v0.3` no repositório (a confirmar após o push)
+---
 
-## Controles
+## Jogar
+
+1. Baixe o arquivo `.zip` da build na página de [**Releases (v1.0)**](https://github.com/julionuness/project-umbrella/releases/tag/v1.0).
+2. Extraia o `.zip` (mantenha o executável e a pasta `_Data` juntos).
+3. Execute o `.exe` do jogo (Windows).
+
+### Controles
 
 | Ação | Tecla |
 |---|---|
-| Andar para a esquerda/direita | `A` / `D` ou setas |
+| Andar para a esquerda / direita | `A` / `D` |
 | Pular | `Espaço` |
-| Pulo duplo | `Espaço` (2ª vez, no ar) |
+| Pulo duplo | `Espaço` (de novo, no ar) |
+| Menus e painéis | Mouse |
 
-## Como abrir o projeto
+### Como o jogo funciona
 
-1. Clone o repositório.
-2. Abra a pasta do projeto no **Unity Hub** (Unity 6.3 LTS ou compatível).
-3. Certifique-se de que o pacote de **Input System** está instalado, e que
-   **Edit > Project Settings > Player > Active Input Handling** está em `Both` (o projeto usa a API
-   legada `UnityEngine.Input`).
-4. Abra a cena em `Assets/Scenes/SampleScene.unity` e dê Play.
+- Avance sempre para a direita até o fim de cada fase, desviando dos obstáculos.
+- **Não há checkpoints:** qualquer derrota (obstáculo ou queda no limbo) reinicia a **fase atual** do início.
+- Um **cronômetro** acompanha toda a partida; a meta é terminar no menor tempo.
+- Na **Fase 4**, pegue o guarda-chuva para vencer.
 
-## Estrutura de scripts (`Assets/Scripts`)
+| Fase | Foco |
+|---|---|
+| 1 — Tutorial | Controles na tela e uma armadilha de demonstração |
+| 2 — Desafios progressivos | Vãos no terreno, espinhos, flechas, bigornas, pêndulos e barris |
+| 3 — Domínio de habilidade | Obstáculos combinados, serras em trajeto e trechos de descida com reflexo |
+| 4 — Mapa final | Trecho curto até o guarda-chuva |
+
+---
+
+## Abrir o projeto no Unity
+
+**Requisitos:** Unity **6000.3.22f1** (Unity 6.3 LTS) e **Git LFS**.
+
+> Instale o Git LFS **antes** de clonar (`git lfs install`). Imagens, áudios e fontes são versionados com LFS; sem ele, esses arquivos chegam como pequenos ponteiros de texto e o projeto abre com recursos faltando.
+
+```bash
+git lfs install
+git clone https://github.com/julionuness/project-umbrella.git
+```
+
+1. Abra a pasta no **Unity Hub** com a versão 6000.3.22f1.
+2. Abra a cena `Assets/Scenes/Menu.unity` e aperte **Play**.
+3. Ordem das cenas no Build Settings: `Menu` → `Fase_01` → `Fase_02` → `Fase_03` → `Fase_04`.
+
+O projeto usa a API de entrada `UnityEngine.Input`; em **Project Settings > Player > Active Input Handling** a opção deve ficar em **Both** (já configurada).
+
+---
+
+## Estrutura do repositório
+
+```
+├── Assets/
+│   ├── Animations/     # Animator do jogador e clipes (Idle, Walk, Jump)
+│   ├── Art/            # Sprites, fundos e pacotes de arte
+│   ├── Audio/          # Música e efeitos sonoros
+│   ├── Prefabs/        # 26 prefabs (jogador, obstáculos, terreno, interface)
+│   ├── Resources/      # GameTimer.prefab (carregado automaticamente)
+│   ├── Scenes/         # Menu e Fase_01 a Fase_04
+│   ├── Scripts/        # Código-fonte em C#
+│   └── Tilesets/       # Paleta de terreno
+├── Packages/           # Dependências do projeto (manifest.json)
+├── ProjectSettings/    # Configurações do Unity
+├── Docs/
+│   ├── GDD/            # GDD final (Word)
+│   ├── LevelDesign/    # Documento de level design e croquis das fases
+│   ├── Testes/         # Fichas de playtest e lista de bugs
+│   └── Arte/           # Model sheet, sprite sheet, VFX e tela inicial
+├── GDD.pdf             # GDD final (v1.0)
+├── CREDITS.md          # Créditos dos recursos externos
+└── README.md
+```
+
+---
+
+## Código-fonte (`Assets/Scripts`)
 
 | Script | Responsabilidade |
 |---|---|
-| `PlayerMovement.cs` | Movimento lateral, pulo e double jump, flip de sprite, integração com o Animator |
-| `CameraFollow.cs` | Câmera acompanhando o player suavemente |
-| `GameOverManager.cs` | Painel de derrota, pausa do jogo, reinício |
-| `VictoryManager.cs` | Painel de vitória, tempo total, reinício |
-| `LimboZone.cs` | Game Over ao cair fora do cenário |
-| `RotatingSaw.cs` | Serra que gira e se move em vaivém entre dois pontos |
-| `PendulumObstacle.cs` | Obstáculo pendular em torno de um ponto fixo |
-| `AnvilTrap.cs` | Bigorna que detecta o player, cai com física real e vira chão após pousar |
-| `ArrowTrap.cs` | Flecha que mira e dispara em loop contra um alvo |
-| `Barrel.cs` / `BarrelSpawner.cs` | Gerador de barris que rolam ladeira abaixo com física real |
-| `MovingPlatform.cs` | Plataforma cinemática entre dois pontos |
-| `UmbrellaPickup.cs` | Coletável que gira/flutua e dispara a vitória |
-| `ParallaxLayer.cs` | Camadas de fundo com profundidade (parallax) |
+| `PlayerMovement` | Movimento lateral, pulo e pulo duplo, giro do sprite, parâmetros do Animator e som de passos |
+| `CameraFollow` | Câmera que acompanha o jogador suavemente |
+| `ParallaxLayer` | Camadas de fundo com profundidade (parallax) |
+| `SceneTransitionManager` | Fade entre cenas (persistente) |
+| `MainMenu` | Iniciar o jogo (zera o cronômetro) e sair |
+| `GameTimer` | Cronômetro geral da partida e HUD (persistente) |
+| `GameOverManager` | Derrota: painel "Você perdeu!" e reinício da fase |
+| `VictoryManager` | Vitória: painel, tempo total e navegação entre fases |
+| `PhaseEndTrigger` | Zona invisível que encerra as fases 1 a 3 |
+| `UmbrellaPickup` | Guarda-chuva (gira e flutua) que encerra o jogo na Fase 4 |
+| `LimboZone` | Derrota por queda fora do mapa |
+| `DeathObstacles` | Obstáculo letal por contato (ex.: espinhos) |
+| `RotatingSaw` | Serra giratória em vaivém entre dois pontos |
+| `PendulumObstacle` | Obstáculo pendular em torno de um pivô |
+| `AnvilTrap` | Bigorna que cai quando o jogador se aproxima e vira chão depois de pousar |
+| `ArrowTrap` | Flecha que mira e dispara em loop contra um alvo |
+| `BarrelSpawner` / `Barrel` | Gerador de barris que rolam ladeira abaixo com física real |
+| `MovingPlatform` | Plataforma cinemática entre dois pontos |
+| `AudioManager` | Música de fundo e efeitos sonoros (persistente) |
+| `RainEffect` / `SunRaysEffect` / `ConfettiEffect` | Efeitos de interface criados por código (derrota e vitória) |
+
+---
 
 ## Documentação
 
-- **GDD completo**: `GDD.pdf` (Game Design Document, versão 0.3)
-- **Tags de entrega**: [`v0.1`](../../releases/tag/v0.1) · [`v0.2`](../../releases/tag/v0.2) · `v0.3`
+| Documento | Local |
+|---|---|
+| GDD final | [`GDD.pdf`](GDD.pdf) (versão editável em [`Docs/GDD`](Docs/GDD)) |
+| Level design e croquis das fases | [`Docs/LevelDesign`](Docs/LevelDesign) |
+| Registros de testes (playtests e bugs) | [`Docs/Testes`](Docs/Testes) |
+| Créditos dos recursos externos | [`CREDITS.md`](CREDITS.md) |
+
+## Versões
+
+| Tag | Entrega |
+|---|---|
+| `v0.1` | GDD inicial |
+| `v0.2` | Direção visual e level design |
+| `v0.3` | Prova de conceito jogável |
+| `v0.4` | Vertical slice |
+| `v0.5` | Beta / feature lock |
+| `v1.0` | **Entrega final** |
+
+---
 
 ## Equipe
 
 | Integrante | Papel |
 |---|---|
-| Júlio César Nunes | Game Designer + Producer |
+| Júlio César Nunes | Game Designer + Producer; Artista 2D + Animador |
 | Thales Silveira de Queiroz | Level Designer + Sound Designer |
-| Gustavo Vitor Ferreira | Programador + QA, Artista 2D + Animador |
+| Gustavo Vitor Ferreira | Programador + QA; Artista 2D + Animador |
